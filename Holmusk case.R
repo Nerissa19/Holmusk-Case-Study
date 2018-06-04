@@ -342,3 +342,5 @@ summary(model4) # not significant
 
 
 detach(Final_Data)
+
+write.csv(Final_Data,file = 'Final Dataset for Analysis - Holmusk.csv')
