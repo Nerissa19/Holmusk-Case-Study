@@ -164,7 +164,7 @@ for(i in 1:nrow(Holmusk)) {
     Holmusk$date_of_birth[i]=NA
   }
   }
-}
+
 Holmusk=Holmusk[complete.cases(Holmusk), ]
 # now all the original has been joined together with no missing values
 # to analyze the driver of care cost, we calculate the age of patient on the date of admission
